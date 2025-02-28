@@ -55,12 +55,57 @@
 
 # 5th problem
 
-weather='Rainy'
-if weather == 'Sunny':
-    print('Go for walk')
-elif weather == 'Rainy':
-    print('Read a book')
-elif weather == 'Snowy':
-    print('Build a snowman')
+# weather='Rainy'
+# if weather == 'Sunny':
+#     print('Go for walk')
+# elif weather == 'Rainy':
+#     print('Read a book')
+# elif weather == 'Snowy':
+#     print('Build a snowman')
+# else:
+#     print('N/A')
+
+# 6 th problem
+
+# distance = 1
+# if distance <=3:
+#     print("Walk")
+# elif distance <= 15:
+#     print('Bike')
+# else:
+#     print('Car')
+
+# 7th problem
+
+# order_size = 'Medium'
+# extra_shot=True
+
+# if extra_shot:
+#     coffee= order_size+" Cofee with an extra shot"
+# else:
+#     coffee=order_size+"  Coffee"
+
+# print(coffee)
+
+# 8th
+
+# password = "Secure@12356"
+
+# if len(password) < 6:
+#     strength='Weak'
+# elif len(password) <= 10:
+#     strength='Medium'
+# else:
+#     strength = 'Strong'
+
+# print("Password strength is :",strength)
+
+# 9th
+
+year = 2025
+
+if (year%4 == 0 and year%100 !=0) or (year%400 == 0):
+    print("this is a leap year")
 else:
-    print('N/A')
+    print("this is not a leap year")
+    
