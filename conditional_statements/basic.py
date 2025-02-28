@@ -25,14 +25,42 @@
 
 # 3rd problem
 
-grade=50
-if grade > 90:
-    print('A')
-elif grade > 80:
-    print('B')
-elif grade > 70:
-    print('C')
-elif grade > 60:
-    print('D')
+# grade=185
+
+# if grade >=101:
+#     print("please verify your grade")
+#     exit()
+# if grade >= 90:
+#     print('A')
+# elif grade >= 80:
+#     print('B')
+# elif grade >= 70:
+#     print('C')
+# elif grade >= 60:
+#     print('D')
+# else:
+#     print('F')
+
+# 4th problem
+
+# color = 'Brown'
+# if color == 'Green':
+#     print('Unripe')
+# elif color == 'Yellow':
+#     print('ripe')
+# elif color == 'Brown':
+#     print('Overripe')
+# else:
+#     print('N/A')
+
+# 5th problem
+
+weather='Rainy'
+if weather == 'Sunny':
+    print('Go for walk')
+elif weather == 'Rainy':
+    print('Read a book')
+elif weather == 'Snowy':
+    print('Build a snowman')
 else:
-    print('F')
+    print('N/A')
