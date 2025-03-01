@@ -58,3 +58,49 @@
 # print(factorial)
 
 # 7th keep asking the user for input until they enter a number between 1 and 10.
+
+# while True:
+#     number=int(input("Enter value b/w 1 and 10 :"))
+#     if 1<=number<=10:
+#         print("thanks")
+#         break
+#     else:
+#         print("Invalid number try again")
+
+# 8th check prime number
+
+# number= 28
+# is_prime = True
+
+# if number > 1:
+#     for i in range(2,number):
+#         if (number % i) == 0:
+#             is_prime = False
+#             break
+
+# print(is_prime)
+
+# 9th uniqueness checker
+
+# items = ['apple','banana','orange','apple','mango']
+
+# unique_item = set()
+
+# for item in items:
+#     if item in unique_item:
+#         print('duplicate ',item)
+#     unique_item.add(item)
+
+# 10th Exponential Backoff -> Implement an exponential backoff strategy that doubles the wait time between, starting from 1 second, but stop after 5 retries
+
+import time
+wait_time = 1
+max_retries = 5
+attempts = 0
+
+while attempts < max_retries:
+    print("Attempt",attempts + 1,"-wait time",wait_time,)
+    time.sleep(wait_time)
+    wait_time *=2
+    attempts +=1
+    
